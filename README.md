@@ -8,8 +8,10 @@ npm install react-router-dom localforage match-sorter sort-by
 <br />
 createBrowserRouter, RouterProvider
 
-****
+**Handling Not Found Errors**
 <br />
+when the user navigates to routes that don't exist - useRouteError
+
 
 
 
