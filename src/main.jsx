@@ -12,6 +12,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
+    // configure the loader on the route
     loader: rootLoader,
     children: [
       {
