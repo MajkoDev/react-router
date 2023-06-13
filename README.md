@@ -24,12 +24,11 @@ Client side routing allows our app to update the URL without requesting another 
 URL segments, layouts, and data are more often than not coupled together. <br />
 React Router has data conventions to get data into your route components easily.<br />
 
+**Creating Contacts**<br />
+exporting 'action' in root route, wiring it up to route config, <Form />
 
-**Data Writes + HTML Forms**
-<br />
-**Creating Contacts**
-<br />
-**URL Params in Loaders**
-<br />
-**Updating Data**
-<br />
+**Updating Data**<br />
+The edit route we just created already renders a form. All we need to do to update the record is wire up an action to the route. The form will post to the action and the data will be automatically revalidated.
+
+
+
